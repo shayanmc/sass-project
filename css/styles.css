@@ -70,4 +70,68 @@ h4 {
   font-size: 0.875rem;
 }
 
+.container {
+  width: 90vw;
+  max-width: 1450px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.button__header {
+  display: none;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  background: var(--body-color);
+  top: 0;
+  right: 0;
+  padding: 0.75rem 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav__toggle {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .nav__menu {
+    position: fixed;
+    background: var(--container-color);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    top: -100%;
+    left: 0;
+    right: 0;
+    width: 90%;
+    margin: auto;
+    border-radius: 2rem;
+    padding: 2.5rem 0;
+    transition: 0.4s;
+  }
+}
+.nav__list {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  align-items: center;
+}
+.nav__link, .nav__logo, .nav__toggle {
+  color: var(--title-color);
+}
+
+.show-menu {
+  top: 4rem;
+}
+
 /*# sourceMappingURL=styles.css.map */

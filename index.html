@@ -1,12 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Boot strap icons -->
+    <link rel="stylesheet" href="css/bootstrap-icons.css" />
     <title>sass project</title>
-</head>
-<body>
-    <h1>Lorem ipsum dolor sit amet.54</h1>
-</body>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <a class="nav__logo" href="#">shayanmc</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Contact</a></li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">About us</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Services</a>
+            </li>
+            <i class="bi bi-toggle-off"></i>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bi bi-list-nested"></i>
+        </div>
+        <a class="button button__header" href="#">lorem</a>
+      </nav>
+    </header>
+    <script src="./js/app.js" ></script>
+  </body>
 </html>
