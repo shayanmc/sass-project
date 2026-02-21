@@ -1,0 +1,24 @@
+{
+  "name": "sass-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass -w scss/styles.scss css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shayanmc/sass-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/shayanmc/sass-project/issues"
+  },
+  "homepage": "https://github.com/shayanmc/sass-project#readme",
+  "devDependencies": {
+    "sass": "^1.97.3"
+  }
+}
