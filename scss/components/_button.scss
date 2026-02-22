@@ -1,4 +1,15 @@
 .button {
+    display: inline-block;
+    background: var(--primary-color);
+    padding: 0.75rem 1.5rem;
+    color: #fff;
+    border-radius: 3rem;
+    &:hover {
+        background: var(--container-color);
+        color: var(--primary-color);
+        transition: 0.5s;
+        outline: 1px solid var(--primary-color);
+    }
     &__header {
         display: none;
     }

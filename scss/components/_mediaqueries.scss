@@ -1,0 +1,24 @@
+@media screen and (min-width : 767px) {
+   .nav {
+
+
+     &__list {
+        flex-direction: row;
+        display: flex;
+        gap: 4.5rem;
+    }
+    &__toggle {
+        display: none;
+    }
+   }
+}
+
+@media screen and (min-width : 992px) {
+    .container {
+        width: 95vw;
+    }
+    .button__header {
+        display: block;
+        padding: 0.5rem 1.75rem;
+    }
+}

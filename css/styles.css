@@ -78,6 +78,19 @@ h4 {
   gap: 1.5rem;
 }
 
+.button {
+  display: inline-block;
+  background: var(--primary-color);
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+  border-radius: 3rem;
+}
+.button:hover {
+  background: var(--container-color);
+  color: var(--primary-color);
+  transition: 0.5s;
+  outline: 1px solid var(--primary-color);
+}
 .button__header {
   display: none;
 }
@@ -132,6 +145,26 @@ h4 {
 
 .show-menu {
   top: 4rem;
+}
+
+@media screen and (min-width: 767px) {
+  .nav__list {
+    flex-direction: row;
+    display: flex;
+    gap: 4.5rem;
+  }
+  .nav__toggle {
+    display: none;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    width: 95vw;
+  }
+  .button__header {
+    display: block;
+    padding: 0.5rem 1.75rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
