@@ -1,7 +1,17 @@
+.section {
+    padding: 4rem 0 1rem 0;
+}
+
 .container {
     width: 90vw;
     max-width: 1450px;
     margin:  0 auto;
     display: grid;
     gap : 1.5rem
+}
+.svg {
+    &__img {
+        width: 400px;
+        justify-self: center;
+    }
 }

@@ -70,12 +70,21 @@ h4 {
   font-size: 0.875rem;
 }
 
+.section {
+  padding: 4rem 0 1rem 0;
+}
+
 .container {
   width: 90vw;
   max-width: 1450px;
   margin: 0 auto;
   display: grid;
   gap: 1.5rem;
+}
+
+.svg__img {
+  width: 400px;
+  justify-self: center;
 }
 
 .button {
@@ -145,6 +154,24 @@ h4 {
 
 .show-menu {
   top: 4rem;
+}
+
+.home {
+  padding-top: 5rem;
+}
+.home__container {
+  row-gap: 2.5rem;
+}
+.home__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.home span {
+  color: var(--primary-color);
+}
+.home__description {
+  margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 767px) {
