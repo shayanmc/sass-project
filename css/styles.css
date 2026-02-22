@@ -73,6 +73,14 @@ h4 {
 .section {
   padding: 4rem 0 1rem 0;
 }
+.section__title {
+  font-size: 1.25rem;
+  color: var(--title-color);
+  margin-bottom: 1rem;
+}
+.section__title span {
+  color: var(--primary-color);
+}
 
 .container {
   width: 90vw;
@@ -174,6 +182,13 @@ h4 {
   margin-bottom: 1rem;
 }
 
+.about__container {
+  gap: 2rem;
+}
+.about__info {
+  order: -1;
+}
+
 @media screen and (min-width: 576px) {
   .svg__img {
     width: 80%;
@@ -182,6 +197,11 @@ h4 {
     padding-top: 5rem;
   }
   .home__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .about__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
