@@ -16,14 +16,14 @@
 
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
-            <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+            <li class="nav__item"><a class="nav__link" href="#home">Home</a></li>
+            <li class="nav__item">
+              <a class="nav__link" href="#about">About us</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#services">Services</a>
+            </li>
             <li class="nav__item"><a class="nav__link" href="#">Contact</a></li>
-            <li class="nav__item">
-              <a class="nav__link" href="#">About us</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#">Services</a>
-            </li>
             <i class="bi bi-toggle-off"></i>
           </ul>
         </div>
@@ -36,7 +36,7 @@
     <!-- end  header -->
 
     <!-- start Home -->
-    <section class="home section">
+    <section class="home section" id="home">
       <div class="home__container container">
         <article class="home__img svg__img">
           <img src="./images/image1.svg" alt="home-image" />
@@ -58,7 +58,7 @@
     <!-- end Home -->
 
     <!-- start about -->
-    <section class="about section">
+    <section class="about section" id="about">
       <div class="about__container container">
         <article class="about__img svg__img">
           <img src="./images/image1.svg" alt="about-image" />
@@ -77,6 +77,40 @@
       </div>
     </section>
     <!-- end about -->
+
+    <!-- start services -->
+     <section class="services section" id="services">
+        <h2 class="section__titlle">Lorem ipsum dolor sit.</h2>
+        <div class="services__container container">
+          <article class="services__info">
+            <h3 class="services__tittle">Lorem, ipsum.</h3>
+            <i class="services__icon bi bi-browser-chrome"></i>
+            <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, reiciendis.</p>
+            <div>
+              <a href="#" class="button button-link">Lorem, ipsum.</a>
+            </div>
+          </article>
+          <!--  -->
+          <article class="services__info">
+            <h3 class="services__tittle">Lorem, ipsum.</h3>
+            <i class="services__icon bi bi-browser-edge"></i>
+            <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, reiciendis.</p>
+            <div>
+              <a href="#" class="button button-link">Lorem, ipsum.</a>
+            </div>
+          </article>
+          <!--  -->
+          <article class="services__info">
+            <h3 class="services__tittle">Lorem, ipsum.</h3>
+            <i class="services__icon bi bi-browser-firefox"></i>
+            <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, reiciendis.</p>
+            <div>
+              <a href="#" class="button button-link">Lorem, ipsum.</a>
+            </div>
+          </article>
+        </div>
+     </section>
+    <!-- end services -->
 
     <script src="./js/app.js"></script>
   </body>
