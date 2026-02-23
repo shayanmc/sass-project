@@ -111,6 +111,16 @@ h4 {
 .button__header {
   display: none;
 }
+.button__link {
+  padding: 0.33rem 0.75rem;
+  background: var(--container-color);
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+.button__link:hover {
+  background: var(--primary-color);
+  color: var(--container-color);
+}
 
 .header {
   position: fixed;
