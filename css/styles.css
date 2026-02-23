@@ -227,6 +227,15 @@ h4 {
   margin-bottom: 1rem;
 }
 
+.footer {
+  background: lightgray;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
 @media screen and (min-width: 576px) {
   .svg__img {
     width: 80%;
